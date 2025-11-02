@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NGL Spammer</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NGL Spammer</h1>
+        <input type="text" id="nglUsername" placeholder="NGL Username" required>
+        <textarea id="message" placeholder="Pesan" required></textarea>
+        <input type="number" id="count" placeholder="Jumlah Spam (max 500)" value="100" min="1" max="500">
+        <button id="spamButton">SPAM!</button>
+        <div id="status"></div>
+        <ul id="results"></ul>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+</html>
